@@ -7,3 +7,14 @@ def initialize(dog_name, dog_breed = "Mutt")
 end
 
 end
+
+####Terminal Testing Debs####
+
+loki.name #=> "Loki"
+loki.breed #=> "Maltipoo"
+
+loki = Dog.new("Loki","Maltipoo") #=> ..   
+loki.name #=> "Loki"
+loki.breed #=> "Maltipoo"
+loki #=> #<Dog:0x0000563872335440 @name="Loki", @breed="Maltipoo">
+
