@@ -9,10 +9,10 @@ end
 end
 
 ####Terminal Testing Debs####
-# 
+#
 # loki.name #=> "Loki"
 # loki.breed #=> "Maltipoo"
-# 
+#
 # loki = Dog.new("Loki","Maltipoo") #=> ..
 # loki.name #=> "Loki"
 # loki.breed #=> "Maltipoo"
