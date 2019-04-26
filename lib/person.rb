@@ -6,3 +6,6 @@ attr_accessor :name
   end
 
 end
+
+deb = Person.new("Deborah") #=> #<Person:0x0000563872304818 @name="Deborah">
+deb.name #=> "Deborah"
